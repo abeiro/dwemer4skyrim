@@ -18,25 +18,10 @@ WSL2 Installation
 
 DwemerDistro3 Installation
 ===================
-* Run 1) INSTALL Distro
+* Run 1)INSTALL Distro
 * Go through installation script, highly recommend to install MeloTTS when given the option
-
-After installation you can use the CHIM.exe, which will be easier
-It may get flagged as a virus, but it is safe
-It's source code is here: https://github.com/RANGROO/CHIM-Launcher
-
-* Optional: If you want CHIM XTTS, go to Tools/Components/NVIDIA GPU Components and run 1) REQUIRED CUDA INSTALL ME!.bat, then Install CHIM XTTS (Powerful TTS but High System Requirements!).bat
-* Run Start Server.bat (Or Start Server in the launcher.
-
-* A browser window should open
-* Follow the Quickstart Menu
-* Optional: If you want to make more advance changes use the Configuration Wizard
-* Run Troubleshooting tests on default profile to verify that your AI services are setup correctly.
-
-* Check the mod page Installation Guide for more information: https://www.nexusmods.com/skyrimspecialedition/mods/126330?tab=description
-
-* Uninstall.bat will delete and deregister the WSL2 machine
-
+* Follow the next steps shown on screen after the installer is complete.
+* Indepth installation instructions can be found here: https://dwemerdynamics.hostwiki.io/en/Installation
 
 
 Installing Optional Components
@@ -77,10 +62,6 @@ Basic NVIDIA Components:
 
 Advanced NVIDIA Components:
 
-* Install Llama Lava (ITT Server).bat
-  Will install an older llama.cpp implementation with llava support. 
-  Can use HuggingFace Models.
-  Is meant to be used for SoulGaze.
 
 * Install Local Whisper (STT Server).bat
   Will install Local Whisper. 
@@ -89,7 +70,7 @@ Advanced NVIDIA Components:
   See: https://github.com/joshuaboniface/remote-faster-whisper. 
 
 * Install Text2Vec (Embeddings).bat 
-  DOES NOT WORK CURRENTLY. SKIP THIS!
+
 
 
 
