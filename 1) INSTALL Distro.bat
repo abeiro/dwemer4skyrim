@@ -7,8 +7,8 @@ echo                              DWEMER DYNAMICS
 echo                           CHIM DISTRO INSTALLER                           
 echo ===============================================================================
 echo.
-echo  IMPORTANT: Make sure Virtual Machine Platform and Windows Subsystem 
-echo             for Linux are enabled in Windows features!
+echo  IMPORTANT: Make sure Virtual Machine Platform, Windows Subsystem 
+echo    for Linux and Windows Hypervisor Platform are enabled in Windows features!
 echo.
 echo  You can enable them in:
 echo    Control Panel - Programs and Features - Turn Windows features on or off
