@@ -71,7 +71,7 @@ echo. Next Steps:
 echo. 1. Download AIAgent here: https://www.nexusmods.com/skyrimspecialedition/mods/126330?tab=files
 echo. 2. Install it with your Mod Manager of choice
 echo. 3. Open the mod folder, create a shortcut of CHIM.exe and paste it on your desktop
-echo. 4. Run CHIM.exe, install any componenets you want, then start the server.
+echo. 4. Run CHIM.exe, install any components you want, then start the server.
 echo.
 echo  Press any key to exit...
 pause > nul
