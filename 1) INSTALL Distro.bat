@@ -12,7 +12,7 @@ echo    for Linux and Windows Hypervisor Platform are enabled in Windows feature
 echo.
 echo  You can enable them in:
 echo    Control Panel - Programs and Features - Turn Windows features on or off
-echo.
+echo. 
 echo  Press any key to begin the installation process...
 pause > nul
 
@@ -54,10 +54,12 @@ echo ===========================================================================
 echo.
 echo  You can now delete the DwemerAI4Skyrim3.tar and DwemerAISkyrim3.7z files.
 echo.
+echo  Installation location (You must uninstall the Distro before moving it): %CD%
+echo.
 echo. Next Steps:
 echo. 1. Download AIAgent here: https://www.nexusmods.com/skyrimspecialedition/mods/126330?tab=files
-echo. 2. Install it with your Mod Manager of choice
-echo. 3. Open the mod folder, create a shortcut of CHIM.exe and paste it on your desktop
+echo. 2. Install it with your Mod Manager of choice.
+echo. 3. Open the AIAgent mod folder, create a shortcut of CHIM.exe and place it on your desktop.
 echo. 4. Run CHIM.exe, install any components you want, then start the server.
 echo.
 echo  Press any key to exit...
