@@ -4,7 +4,7 @@ setlocal EnableDelayedExpansion
 cls
 echo ===============================================================================
 echo                              DWEMER DYNAMICS                               
-echo                              CHIM SERVER UPDATER                           
+echo                           CHIM SERVER UPDATER                           
 echo ===============================================================================
 echo.
 echo  Are you sure you want to continue with the update?
@@ -16,7 +16,7 @@ pause > nul
 cls
 echo ===============================================================================
 echo                              DWEMER DYNAMICS                               
-echo                              CHIM SERVER UPDATER                           
+echo                            CHIM SERVER UPDATER                           
 echo ===============================================================================
 echo.
 
