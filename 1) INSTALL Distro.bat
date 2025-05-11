@@ -40,21 +40,8 @@ wsl --import DwemerAI4Skyrim3 . DwemerAI4Skyrim3.tar
 echo     + DwemerAI4Skyrim3 distro imported successfully
 echo.
 
-echo [*] STEP 3: Updating CHIM distro...
-echo.
-echo     - Setting up distro repository and updates...
-wsl -d DwemerAI4Skyrim3 -u dwemer -- bash -c "mkdir -p /home/dwemer"
-wsl -d DwemerAI4Skyrim3 -u dwemer -- bash -c "cd /home/dwemer && rm -rf dwemerdistro && git clone https://github.com/abeiro/dwemerdistro.git"
-wsl -d DwemerAI4Skyrim3 -u dwemer -- bash -c "cd /home/dwemer/dwemerdistro && chmod +x update.sh && echo dwemer | sudo -S ./update.sh"
 
-if %ERRORLEVEL% NEQ 0 (
-    echo     ! Error occurred during distro update. Check output above.
-) else (
-    echo     + DwemerDistro updated successfully
-)
-echo.
-
-echo [*] STEP 4: Updating CHIM server...
+echo [*] STEP 3: Updating CHIM server...
 echo.
 echo     - Configuring server components...
 wsl -d DwemerAI4Skyrim3 -u dwemer -- /usr/local/bin/update_gws
